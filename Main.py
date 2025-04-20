@@ -7,8 +7,10 @@ def main_screen():
 
       screen =  Tk()
       screen.geometry("375x398")
-
-      screen.title("PctApp")
+      #icon
+      image_icon = PhotoImage(file = "key.png")
+      screen.iconphoto(False, image_icon)
+      screen.title("Secure_App")
 
       screen.mainloop()
 
